@@ -24,4 +24,13 @@ A = [1 0; 3 2; -5 1;]
 B = [6 1;]
 B = reshape(B, 2, 1)
 
+C = [2 3; 4 5; 6 7;]
+D = [0 1; 2 3]
 @show matmul(A,B)
+@show matmul(C,D)
+
+matrices = []
+for i in 1:100
+    randm1 = rand(3,3)
+end
+
