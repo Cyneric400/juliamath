@@ -29,8 +29,3 @@ D = [0 1; 2 3]
 @show matmul(A,B)
 @show matmul(C,D)
 
-matrices = []
-for i in 1:100
-    randm1 = rand(3,3)
-end
-
